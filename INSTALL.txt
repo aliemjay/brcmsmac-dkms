@@ -1,3 +1,6 @@
-# rm -rf /usr/src/brcmsmac-*/
 # dkms add ./
 # dkms install [-k kernel_version] brcmsmac/[version]
+
+to reset:
+# dkms remove [-k kernel | --all] brcmsmac/[version]
+# rm -rf /usr/src/brcmsmac-*/
