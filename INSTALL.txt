@@ -1,0 +1,3 @@
+# rm -rf /usr/src/brcmsmac-*/
+# dkms add ./
+# dkms install [-k kernel_version] brcmsmac/[version]
